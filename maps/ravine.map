@@ -1,0 +1,34 @@
+border_size=1
+usage=map
+
+Ce, Ce, Ce, Ce, Ce, Ce, Ce, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Ce, Ce, Ce, Ce, Ce, Ce, Ce
+Ce, Ce, Ce, Ce, Ce, Ce, Ce, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Ce, Ce, Ce, Ce, Ce, Ce, Ce
+Ce, Ce, Ce, Ce, Ce, Ce, Ce, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Ce, Ce, Ce, Ce, Ce, Ce, Ce
+Ce, Ce, Ce, Ce, Ce, Ce, Ce, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Ce, Ce, Ce, Ce, Ce, Ce, Ce
+Ce, Ce, Ce, Ce, Ce, Ce, Ce, Gg, Gg, Gg, Gg^Br/, Gg, Gg, Gg, Gg^Br\, Gg, Gg, Gg, Ce, Ce, Ce, Ce, Ce, Ce, Ce
+Ce, Ce, Ce, Ce, Xu, Xu, Xu, Xu, Xu, Xu, Gg, Gg^Br\, Gg^Br|, Gg^Br/, Gg, Xu, Xu, Xu, Xu, Xu, Xu, Ce, Ce, Ce, Ce
+Ce, 1 Ce, Xu, Xu, Ur, Ur, Ur, Ur, Ur, Uu, Gg, Gg, Gg^Br|, Gg, Gg, Uu, Ur, Ur, Ur, Ur, Ur, Xu, Xu, 2 Ce, Ce
+Xu, Xu, Ur, Uu^Vud, Ur, Ur, Ur, Uu^Uf, Xu, Uu, Uu, Gg, Gg^Br|, Gg, Uu, Uu, Xu, Uu^Uf, Ur, Ur, Ur, Uu^Vud, Ur, Xu, Xu
+Xu, Ur, Xu, Xu, Xu, Ur, Ur, Xu, Uu^Vud, Ur, Ur, Uu, Uu^Br|, Uu, Ur, Ur, Uu^Vud, Xu, Ur, Ur, Xu, Xu, Xu, Ur, Xu
+Xu, Xv, Wot, Wot, Wot^Bh/, Wwt^Bh/, Wwt, Xu, Xu, Ur, Ur, Ur, Ur^Br|, Ur, Ur, Ur, Xu, Xu, Wwt, Wwt^Bh\, Wot^Bh\, Wot, Wot, Xv, Xu
+Xu, Xv, Wot, Rrc, Xu, Xu, Xu, Wot, Wot, Ur, Ur, Ur, Ur^Br|, Ur, Ur, Ur, Wot, Wot, Xu, Xu, Xu, Rrc, Wot, Xv, Xu
+Xu, Xv, Xu, Wot^Bh|, Xu, Cud^Vud, Ur, Xu, Xu, Wot, Dd, Dd^Fdw, Ur^Br|, Hd, Dd, Wot, Xu, Xu, Ur, Cud^Vud, Xu, Wot^Bh|, Xu, Xv, Xu
+Xu, Xv, Ur, Wot^Bh|, Ur, Xu, Ur, Ur, Ur, Wot, Dd, Hd^Fdw, Ur^Br|, Hd^Fdw, Dd, Wot, Ur, Ur, Ur, Xu, Ur, Wot^Bh|, Ur, Xv, Xu
+Xu, Ur, Cud^Vud, Ur, Cud^Vud, Ur, Cud^Vud, Ur, Ur, Wot, Ur, Hd, Ur^Br|, Dd^Fdw, Ur, Wot, Ur, Ur, Cud^Vud, Ur, Cud^Vud, Ur, Cud^Vud, Ur, Xu
+Xu, Ur, Xu, Ur, Xu, Ur, Xu, Ur, Ur, Wot, Uu, Uu^Fdw, Ur^Br|, Uh, Uu, Wot, Ur, Ur, Xu, Ur, Xu, Ur, Xu, Ur, Xu
+Xu, Ur, Ur, Ur, Ur, Ur, Ur, Ur, Ur, Wot, Uu, Uh^Fdw, Ur^Br|, Uh^Fdw, Uu, Wot, Ur, Ur, Ur, Ur, Ur, Ur, Ur, Ur, Xu
+Xu, Ur, Cud, Cud, Cud, Ur, Cud, Cud, Cud, Wot, Ur, Uh, Ur^Br|, Uu^Fdw, Ur, Wot, Cud, Cud, Cud, Ur, Cud, Cud, Cud, Ur, Xu
+Xu, Wwt, Wwt, Wwt^Bw|, Wwt, Wwt, Wwt, Wwt^Bw|, Wwt, Wwt, Ai, Ai^Fdw, Ur^Br|, Ha, Ai, Wwt, Wwt, Wwt^Bw|, Wwt, Wwt, Wwt, Wwt^Bw|, Wwt, Wwt, Xu
+Xu, Xv, Xu, Wot^Bw|, Wot, Wot, Wot, Wot^Bw|, Xu, Xu, Ai, Ha^Fdw, Ur^Br|, Ha^Fdw, Ai, Xu, Xu, Wot^Bw|, Wot, Wot, Wot, Wot^Bw|, Xu, Xv, Xu
+Xu, Ur^Vwm, Ur, Xu, Xu, Wot, Xu, Xu, Hhd, Hhd, Ur, Ha, Ur^Br|, Ai^Fdw, Ur, Hhd, Hhd, Xu, Xu, Wot, Xu, Xu, Ur, Ur^Vwm, Xu
+Xu, Xu, Ur, Ur, Wwf, Xu, Ur, Ur, Ur, Ur, Ur, Ur, Ur^Br|, Ur, Ur, Ur, Ur, Ur, Ur, Xu, Wwf, Ur, Ur, Xu, Xu
+Xu, Hhd, Hhd, Ur^Fdw, Wwt, Ur, Ur, Ur, Ur, Ur, Ur, Ur, Ur^Br/, Ur, Ur, Ur, Ur, Ur, Ur, Ur, Wwt, Ur^Fdw, Hhd, Hhd, Xu
+Xu, Hhd, Ur^Fdw, Ur^Fdw, Wwf, Ur, Ur, Ur^Fdw, Ur^Fdw, Hhd^Fdw, Hhd, Ur^Br|, Ur, Ur^Br\, Hhd, Hhd^Fdw, Ur^Fdw, Ur^Fdw, Ur, Ur, Wwf, Ur^Fdw, Ur^Fdw, Hhd, Xu
+Xu, Hhd, Ur, Ur, Wwt, Ur, Ur, Ur^Fdw, Ur^Fdw, Ur^Fdw, Hhd, Ur^Br\, Ur^Br/, Ur^Br|, Hhd, Ur^Fdw, Ur^Fdw, Ur^Fdw, Ur, Ur, Wwt, Ur, Ur, Hhd, Xu
+Xu, Ur, Ur, Ur, Wwf, Ur, Ur, Ur, Ur, Xu, Xu, Ur, Ur^Br|, Ur, Xu, Xu, Ur, Ur, Ur, Ur, Wwf, Ur, Ur, Ur, Xu
+Xu, Ur, Ur, Ur, Ss^Fdw, Ur, Ss^Fdw, Ur^Fdw, Xu, Ur, Ur, Xu, Ur^Br|, Xu, Ur, Ur, Xu, Ur^Fdw, Ss^Fdw, Ur, Ss^Fdw, Ur, Ur, Ur, Xu
+Xu, Ur, Ur, Hhd, Xu, Ss^Fdw, Xu, Ur^Vhr, Xu, Ur, Ur, Cud, Ur^Br|, Cud, Ur, Ur, Xu, Ur^Vhr, Xu, Ss^Fdw, Xu, Hhd, Ur, Ur, Xu
+Xu, Ur, Ur, Ur, Ur, Xu, Ur, Xu, Ur, Ur, Cud, Ur, Ur^Br|, Ur, Cud, Ur, Ur, Xu, Ur, Xu, Ur, Ur, Ur, Ur, Xu
+Xu, Hhd^Fdw, Hhd^Fdw, Ur, Ur, Ur, Ur, Ur, Ur, Cud, 4 Kud^Vud, Cud, Ur^Br|, Cud, 3 Kud^Vud, Cud, Ur, Ur, Ur, Ur, Ur, Ur, Hhd^Fdw, Hhd^Fdw, Xu
+Xu, Hhd^Fdw, Xu, Hhd^Fdw, Xu, Ur^Vud, Xu, Ur, Xu, Cud, Xu, Cud, Xu, Cud, Xu, Cud, Xu, Ur, Xu, Ur^Vud, Xu, Hhd^Fdw, Xu, Hhd^Fdw, Xu
+Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu

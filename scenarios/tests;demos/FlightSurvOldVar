@@ -1,0 +1,1408 @@
+#define STR_loyal_l1_mil
+	Spearman,Bowman,Fencer,Heavy Infantryman,Cavalryman,Horseman
+#enddef
+#define STR_loyal_l1_mage
+	Mage
+#enddef
+#define STR_loyal_l1_comm
+	Sergeant
+#enddef
+#define STR_loyal_l2_mil
+	Swordsman,Pikeman,Javelineer,Longbowman,Duelist,Shock Trooper,Dragoon,Knight,Lancer
+#enddef
+#define STR_loyal_l2_mage
+	White Mage,Red Mage
+#enddef
+#define STR_loyal_l2_comm
+	Lieutenant
+#enddef
+#define STR_loyal_l3_mil
+	Royal Guard,Halberdier,Master Bowman,Master at Arms,Iron Mauler,Cavalier,Grand Knight,Paladin
+#enddef
+#define STR_loyal_l3_mage
+	Mage of Light,Arch Mage,Silver Mage
+#enddef
+#define STR_loyal_l3_comm
+	General
+#enddef
+#define STR_loyal_l4_mage
+	Great Mage
+#enddef
+#define STR_loyal_l4_comm
+	Grand Marshal
+#enddef
+#define STR_loyal_l1_base
+	{STR_loyal_l1_mil},{STR_loyal_l1_mage},{STR_loyal_l1_comm}
+#enddef
+#define STR_loyal_l1_lead
+	{STR_loyal_l1_mil},{STR_loyal_l1_mage},{STR_loyal_l2_comm}
+#enddef
+#define STR_loyal_l2_base
+	{STR_loyal_l2_mil},{STR_loyal_l2_mil},{STR_loyal_l2_comm},{STR_loyal_l2_comm},{STR_loyal_l2_mage}
+#enddef
+#define STR_loyal_l2_lead
+	{STR_loyal_l2_mil},{STR_loyal_l2_mil},{STR_loyal_l3_comm},{STR_loyal_l3_comm},{STR_loyal_l2_mage}
+#enddef
+#define STR_loyal_l3_base
+	{STR_loyal_l3_mil},{STR_loyal_l3_mil},{STR_loyal_l3_mil},{STR_loyal_l3_comm},{STR_loyal_l3_comm},{STR_loyal_l3_comm},{STR_loyal_l3_mage}
+#enddef
+#define STR_loyal_l3_lead
+	{STR_loyal_l3_mil},{STR_loyal_l3_mil},{STR_loyal_l3_mil},{STR_loyal_l4_comm},{STR_loyal_l4_comm},{STR_loyal_l4_comm},{STR_loyal_l3_mage}
+#enddef
+
+#define STR_loyal_l1_merf_mil
+	Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter
+#enddef
+#define STR_loyal_l1_merf_oth
+	Merman Hunter, Merman Hunter, Mermaid Initiate, Mermaid Initiate
+#enddef
+#define STR_loyal_l2_merf_mil
+	Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior
+#enddef
+#define STR_loyal_l2_merf_oth
+	Merman Spearman, Merman Netcaster, Mermaid Enchantress, Mermaid Priestess
+#enddef
+#define STR_loyal_l3_merf_mil
+	Merman Triton, Merman Triton, Merman Triton, Merman Triton, Merman Triton, Merman Triton, Merman Hoplite, Merman Hoplite
+#enddef
+#define STR_loyal_l3_merf_oth
+	Merman Javelineer, Merman Entangler, Mermaid Siren, Mermaid Diviner
+#enddef
+
+#define STR_forest_l1_stan
+	Elvish Fighter, Elvish Fighter, Elvish Fighter, Elvish Fighter, Elvish Archer, Elvish Archer, Elvish Archer, Elvish Archer, Elvish Shaman, Elvish Shaman, Wose, Wose
+#enddef
+#define STR_forest_l2_stan
+	Elvish Captain, Elvish Captain, Elvish Hero, Elvish Hero, Elvish Ranger, Elvish Ranger, Elvish Marksman, Elvish Marksman, Elvish Druid, Elvish Sorceress, Elvish Rider, Elvish Rider, Elder Wose, Elder Wose
+#enddef
+#define STR_forest_l2_comm
+	Elvish Lord
+#enddef
+#define STR_forest_l3_stan
+	Elvish Marshal, Elvish Marshal, Elvish Champion, Elvish Champion, Elvish Avenger, Elvish Avenger, Elvish Sharpshooter, Elvish Sharpshooter, Elvish Shyde, Elvish Enchantress, Elvish Outrider, Elvish Outrider, Ancient Wose, Ancient Wose
+#enddef
+#define STR_forest_l2_comm
+	Elvish High Lord
+#enddef
+#define STR_forest_l4_comm
+	Elvish Sylph
+#enddef
+#define STR_forest_l1_add
+	{STR_forest_l1_stan},{STR_forest_l2_comm}
+#enddef
+#define STR_forest_l2_add
+	{STR_forest_l2_stan},{STR_forest_l3_comm}
+#enddef
+#define STR_forest_l3_add
+	{STR_forest_l3_stan},{STR_forest_l4_comm}
+#enddef
+
+#define STR_forest_l1_merf
+	Merman Fighter, Merman Fighter, Merman Hunter, Merman Hunter, Mermaid Initiate, Mermaid Initiate
+#enddef
+#define STR_forest_l2_merf
+	Merman Warrior, Merman Warrior, Merman Spearman, Merman Netcaster, Mermaid Enchantress, Mermaid Priestess
+#enddef
+#define STR_forest_l3_merf
+	Merman Triton, Merman Hoplite, Merman Javelineer, Merman Entangler, Mermaid Siren, Mermaid Diviner
+#enddef
+
+#define STR_swamp_l1_saur_skir
+	Saurian Skirmisher, Saurian Skirmisher, Saurian Skirmisher, Saurian Skirmisher
+#enddef
+#define STR_swamp_l1_saur_aug
+	Saurian Augur, Saurian Augur
+#enddef
+#define STR_swamp_l2_saur_skir
+	Saurian Ambusher, Saurian Ambusher, Saurian Ambusher, Saurian Ambusher
+#enddef
+#define STR_swamp_l2_saur_aug
+	Saurian Soothsayer, Saurian Oracle
+#enddef
+#define STR_swamp_l3_saur_skir
+	Saurian Flanker, Saurian Flanker, Saurian Flanker, Saurian Flanker
+#enddef
+
+#define STR_swamp_l1_naga
+	Naga Fighter
+#enddef
+#define STR_swamp_l2_naga
+	Naga Warrior
+#enddef
+#define STR_swamp_l3_naga
+	Naga Myrmidon
+#enddef
+
+#define STR_swamp_l1_band
+	Footpad, Footpad, Poacher, Poacher, Thief, Thief, Thug, Thug
+#enddef
+#define STR_swamp_l2_band
+	Outlaw, Outlaw, Trapper, Trapper, Rogue, Rogue, Bandit, Bandit
+#enddef
+#define STR_swamp_l3_band
+	Fugitive, Fugitive, Ranger, Huntsman, Assassin, Assassin, Highwayman, Highwayman
+#enddef
+
+#define STR_mountain_l1_stan
+	Dwarvish Fighter, Dwarvish Fighter, Dwarvish Fighter, Dwarvish Thunderer, Dwarvish Thunderer, Dwarvish Guardsman, Dwarvish Guardsman, Dwarvish Scout, Dwarvish Scout, Dwarvish Ulfserker, Gryphon Rider
+#enddef
+#define STR_mountain_l2_stan
+	Dwarvish Steelclad, Dwarvish Steelclad, Dwarvish Steelclad, Dwarvish Thunderguard, Dwarvish Thunderguard, Dwarvish Stalwart, Dwarvish Stalwart, Dwarvish Pathfinder, Dwarvish Pathfinder, Dwarvish Berserker, Gryphon Master
+#enddef
+#define STR_mountain_l2_comm
+	Dwarvish Runesmith
+#enddef
+#define STR_mountain_l3_stan
+	Dwarvish Lord, Dwarvish Lord, Dwarvish Lord, Dwarvish Dragonguard, Dwarvish Dragonguard, Dwarvish Sentinel, Dwarvish Sentinel, Dwarvish Explorer, Dwarvish Explorer, Dwarvish Berserker, Gryphon Master
+#enddef
+#define STR_mountain_l3_comm
+	Dwarvish Runemaster
+#enddef
+#define STR_mountain_l4_comm
+	Dwarvish Arcanister
+#enddef
+#define STR_mountain_l1_add
+	{STR_mountain_l1_stan},{STR_mountain_l2_comm}
+#enddef
+#define STR_mountain_l2_add
+	{STR_mountain_l2_stan},{STR_mountain_l3_comm}
+#enddef
+#define STR_mountain_l3_add
+	{STR_mountain_l3_stan},{STR_mountain_l4_comm}
+#enddef
+
+#define STR_desert_l1_stan
+	Drake Burner, Drake Burner, Drake Fighter, Drake Fighter, Drake Clasher, Drake Clasher, Drake Glider, Drake Glider
+#enddef
+#define STR_desert_l2_stan
+	Drake Flare, Fire Drake, Drake Warrior, Drake Warrior, Drake Thrasher, Drake Arbiter, Sky Drake, Sky Drake
+#enddef
+#define STR_desert_l2_comm
+	Drake Flare
+#enddef
+#define STR_desert_l3_stan
+	Drake Flameheart, Inferno Drake, Drake Blademaster, Drake Blademaster, Drake Enforcer, Drake Warden, Hurricane Drake, Hurricane Drake
+#enddef
+#define STR_desert_l3_comm
+	Drake Flameheart
+#enddef
+#define STR_desert_l4_comm
+	Armageddon Drake
+#enddef
+#define STR_desert_l1_add
+	{STR_desert_l1_stan},{STR_desert_l2_comm}
+#enddef
+#define STR_desert_l2_add
+	{STR_desert_l2_stan},{STR_desert_l3_comm}
+#enddef
+#define STR_desert_l3_add
+	{STR_desert_l3_stan},{STR_desert_l4_comm}
+#enddef
+
+#define STR_caveund_l1_stan
+	Skeleton, Skeleton, Skeleton Archer, Skeleton Archer, Ghost, Ghost, Ghoul, Ghoul, Walking Corpse, Walking Corpse, Dark Adept, Dark Adept
+#enddef
+#define STR_caveund_l2_stan
+	Deathblade, Revenant, Bone Shooter, Bone Shooter, Wraith, Shadow, Necrophage, Necrophage, Soulless, Souless, Dark Sorcerer, Dark Sorcerer
+#enddef
+#define STR_caveund_l2_comm
+	Chocobone
+#enddef
+#define STR_caveund_l3_stan
+	Draug, Draug, Banebow, Banebow, Spectre, Nightgaunt, Ghast, Ghast, Lich, Necromancer
+#enddef
+#define STR_caveund_l3_comm
+	Death Knight
+#enddef
+#define STR_caveund_l4_comm
+	Ancient Lich
+#enddef
+#define STR_caveund_l1_add
+	{STR_caveund_l1_stan},{STR_caveund_l2_comm}
+#enddef
+#define STR_caveund_l2_add
+	{STR_caveund_l2_stan},{STR_caveund_l3_comm}
+#enddef
+#define STR_caveund_l3_add
+	{STR_caveund_l3_stan},{STR_caveund_l4_comm}
+#enddef
+
+#define STR_cavetroll_l1_stan
+	Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp
+#enddef
+#define STR_cavetroll_l2_stan
+	Troll, Troll, Troll, Troll, Troll, Troll, Troll, Troll, Troll Rocklobber, Troll Rocklobber, Troll Rocklobber, Troll Rocklobber
+#enddef
+#define STR_cavetroll_l2_comm
+	Troll Shaman, Troll Shaman
+#enddef
+#define STR_cavetroll_l3_stan
+	Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Rocklobber, Troll Rocklobber
+#enddef
+#define STR_cavetroll_l3_comm
+	Troll Hero, Troll Shaman
+#enddef
+#define STR_cavetroll_l4_comm
+	Great Troll, Troll Shaman
+#enddef
+#define STR_cavetroll_l1_add
+	{STR_cavetroll_l1_stan},{STR_cavetroll_l2_comm
+#enddef
+#define STR_cavetroll_l2_add
+	{STR_cavetroll_l2_stan},{STR_cavetroll_l3_comm
+#enddef
+#define STR_cavetroll_l3_add
+	{STR_cavetroll_l3_stan},{STR_cavetroll_l4_comm
+#enddef
+
+#define STR_iceorc_l1_stan
+	Orcish Grunt, Orcish Grunt, Orcish Archer, Orcish Archer, Orcish Assassin, Orcish Assassin
+#enddef
+#define STR_iceorc_l1_comm
+	Orcish Leader
+#enddef
+#define STR_iceorc_l2_stan
+	Orcish Warrior, Orcish Warrior, Orcish Crossbowman, Orcish Crossbowman, Orcish Slayer, Orcish Slayer
+#enddef
+#define STR_iceorc_l2_comm
+	Orcish Ruler
+#enddef
+#define STR_iceorc_l3_stan
+	Orcish Warlord, Orcish Warlord, Orcish Slurbow, Orcish Slurbow, Orcish Nightblade, Orcish Slayer
+#enddef
+#define STR_iceorc_l3_comm
+	Orcish Sovereign
+#enddef
+#define STR_iceorc_l1_add
+	{STR_iceorc_l1_stan},{STR_iceorc_l2_comm
+#enddef
+#define STR_iceorc_l2_add
+	{STR_iceorc_l2_stan},{STR_iceorc_l3_comm
+#enddef
+#define STR_iceorc_l3_add
+	{STR_iceorc_l3_stan, Orcish Warlord
+#enddef
+
+#define STR_icegob_l1
+	Orcish Leader, Goblin Spearman, Goblin Spearman, Goblin Spearman, Goblin Spearman
+#enddef
+#define STR_icegob_l2
+	Orcish Ruler, Goblin Impaler, Goblin Spearman, Goblin Spearman, Goblin Spearman
+#enddef
+#define STR_icegob_l3
+	Orcish Sovereign, Goblin Impaler, Goblin Rouser, Goblin Spearman, Goblin Spearman
+#enddef
+
+#define STR_void_l1
+	Gryphon Rider, Drake Glider, Vampire Bat, Ghost, Falcon
+#enddef
+#define STR_void_l2
+	Gryphon Master, Sky Drake, Blood Bat, Wraith, Falcon
+#enddef
+#define STR_void_l3
+	Gryphon Master, Hurricane Drake, Dread Bat, Spectre, Elder Falcon
+#enddef
+
+#define STR_end_l1
+	Heavy Infantryman, Dwarvish Ulfserker, Young Ogre, Wolf, Giant Rat
+#enddef
+#define STR_end_l2
+	Shock Trooper, Dwarvish Berserker, Ogre, Great Wolf, Giant Mudcrawler
+#enddef
+#define STR_end_l3
+	Iron Mauler, Dwarvish Berserker, Dire Wolf, Giant Spider
+#enddef
+
+
+
+
+
+#define urGh
+
+
+#define STR_loyal_l1_mil
+	Spearman,Bowman,Fencer,Heavy Infantryman,Cavalryman,Horseman
+#enddef
+#define STR_loyal_l1_mage
+	Mage
+#enddef
+#define STR_loyal_l1_comm
+	Sergeant
+#enddef
+#define STR_loyal_l2_mil
+	Swordsman,Pikeman,Javelineer,Longbowman,Duelist,Shock Trooper,Dragoon,Knight,Lancer
+#enddef
+#define STR_loyal_l2_mage
+	White Mage,Red Mage
+#enddef
+#define STR_loyal_l2_comm
+	Lieutenant
+#enddef
+#define STR_loyal_l3_mil
+	Royal Guard,Halberdier,Master Bowman,Master at Arms,Iron Mauler,Cavalier,Grand Knight,Paladin
+#enddef
+#define STR_loyal_l3_mage
+	Mage of Light,Arch Mage,Silver Mage
+#enddef
+#define STR_loyal_l3_comm
+	General
+#enddef
+#define STR_loyal_l4_mage
+	Great Mage
+#enddef
+#define STR_loyal_l4_comm
+	Grand Marshal
+#enddef
+#define STR_loyal_l1_base
+	{STR_loyal_l1_mil},{STR_loyal_l1_mage},{STR_loyal_l1_comm}
+#enddef
+#define STR_loyal_l1_lead
+	{STR_loyal_l1_mil},{STR_loyal_l1_mage},{STR_loyal_l2_comm}
+#enddef
+#define STR_loyal_l2_base
+	{STR_loyal_l2_mil},{STR_loyal_l2_mil},{STR_loyal_l2_comm},{STR_loyal_l2_comm},{STR_loyal_l2_mage}
+#enddef
+#define STR_loyal_l2_lead
+	{STR_loyal_l2_mil},{STR_loyal_l2_mil},{STR_loyal_l3_comm},{STR_loyal_l3_comm},{STR_loyal_l2_mage}
+#enddef
+#define STR_loyal_l3_base
+	{STR_loyal_l3_mil},{STR_loyal_l3_mil},{STR_loyal_l3_mil},{STR_loyal_l3_comm},{STR_loyal_l3_comm},{STR_loyal_l3_comm},{STR_loyal_l3_mage}
+#enddef
+#define STR_loyal_l3_lead
+	{STR_loyal_l3_mil},{STR_loyal_l3_mil},{STR_loyal_l3_mil},{STR_loyal_l4_comm},{STR_loyal_l4_comm},{STR_loyal_l4_comm},{STR_loyal_l3_mage}
+#enddef
+
+		{SETUNITLIST plainsland ({STR_loyal_l1_base}) 
+({STR_loyal_l1_lead}) 
+({STR_loyal_l2_base},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead}) 
+({STR_loyal_l2_base},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead}) 
+({STR_loyal_l2_base},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead}) 
+({STR_loyal_l2_base},{STR_loyal_l1_lead},{STR_loyal_l1_lead},{STR_loyal_l1_lead}) 
+({STR_loyal_l2_base},{STR_loyal_l1_lead}) 
+({STR_loyal_l2_lead},{STR_loyal_l1_lead}) 
+({STR_loyal_l3_base},{STR_loyal_l2_lead},{STR_loyal_l2_lead},{STR_loyal_l2_lead},{STR_loyal_l2_lead},{STR_loyal_l2_lead}) 
+({STR_loyal_l3_base},{STR_loyal_l2_lead},{STR_loyal_l2_lead},{STR_loyal_l2_lead},{STR_loyal_l2_lead}) 
+({STR_loyal_l3_base},{STR_loyal_l2_lead},{STR_loyal_l2_lead},{STR_loyal_l2_lead}) 
+({STR_loyal_l3_base},{STR_loyal_l2_lead},{STR_loyal_l2_lead}) 
+({STR_loyal_l3_base},{STR_loyal_l2_lead}) 
+({STR_loyal_l3_lead},{STR_loyal_l2_lead}) 
+({STR_loyal_l3_lead}) 
+({STR_loyal_l3_lead},Grand Marshal,Javelineer,Lancer)}
+
+#define STR_loyal_l1_merf_mil
+	Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter
+#enddef
+#define STR_loyal_l1_merf_oth
+	Merman Hunter, Merman Hunter, Mermaid Initiate, Mermaid Initiate
+#enddef
+#define STR_loyal_l2_merf_mil
+	Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior
+#enddef
+#define STR_loyal_l2_merf_oth
+	Merman Spearman, Merman Netcaster, Mermaid Enchantress, Mermaid Priestess
+#enddef
+#define STR_loyal_l3_merf_mil
+	Merman Triton, Merman Triton, Merman Triton, Merman Triton, Merman Triton, Merman Triton, Merman Hoplite, Merman Hoplite
+#enddef
+#define STR_loyal_l3_merf_oth
+	Merman Javelineer, Merman Entangler, Mermaid Siren, Mermaid Diviner
+#enddef
+
+		{SETUNITLIST plainswater ({STR_loyal_l1_merf_mil}) 
+({STR_loyal_l1_merf_mil},{STR_loyal_l1_merf_oth}) 
+({STR_loyal_l2_merf_mil},{STR_loyal_l1_merf_oth},{STR_loyal_l1_merf_mil},{STR_loyal_l1_merf_oth},{STR_loyal_l1_merf_mil},{STR_loyal_l1_merf_oth},{STR_loyal_l1_merf_mil},{STR_loyal_l1_merf_oth}) 
+({STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l1_merf_mil},{STR_loyal_l1_merf_oth},{STR_loyal_l1_merf_mil},{STR_loyal_l1_merf_oth},{STR_loyal_l1_merf_mil},{STR_loyal_l1_merf_oth}) 
+({STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l1_merf_mil},{STR_loyal_l1_merf_oth},{STR_loyal_l1_merf_mil},{STR_loyal_l1_merf_oth}) 
+({STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l1_merf_mil},{STR_loyal_l1_merf_oth}) 
+({STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l1_merf_oth},{STR_loyal_l1_merf_mil},{STR_loyal_l1_merf_oth}) 
+({STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l1_merf_mil},{STR_loyal_l1_merf_oth}) 
+({STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth}) 
+({STR_loyal_l3_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth}) 
+({STR_loyal_l3_merf_mil},{STR_loyal_l3_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth}) 
+({STR_loyal_l3_merf_mil},{STR_loyal_l3_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth}) 
+({STR_loyal_l3_merf_mil},{STR_loyal_l3_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth}) 
+({STR_loyal_l3_merf_mil},{STR_loyal_l3_merf_oth},{STR_loyal_l2_merf_mil},{STR_loyal_l2_merf_oth}) 
+({STR_loyal_l3_merf_mil},{STR_loyal_l3_merf_oth}) 
+({STR_loyal_l3_merf_mil},{STR_loyal_l3_merf_oth})}
+
+
+#define STR_forest_l1_stan
+	Elvish Fighter, Elvish Fighter, Elvish Fighter, Elvish Fighter, Elvish Archer, Elvish Archer, Elvish Archer, Elvish Archer, Elvish Shaman, Elvish Shaman, Wose, Wose
+#enddef
+#define STR_forest_l2_stan
+	Elvish Captain, Elvish Captain, Elvish Hero, Elvish Hero, Elvish Ranger, Elvish Ranger, Elvish Marksman, Elvish Marksman, Elvish Druid, Elvish Sorceress, Elvish Rider, Elvish Rider, Elder Wose, Elder Wose
+#enddef
+#define STR_forest_l2_comm
+	Elvish Lord
+#enddef
+#define STR_forest_l3_stan
+	Elvish Marshal, Elvish Marshal, Elvish Champion, Elvish Champion, Elvish Avenger, Elvish Avenger, Elvish Sharpshooter, Elvish Sharpshooter, Elvish Shyde, Elvish Enchantress, Elvish Outrider, Elvish Outrider, Ancient Wose, Ancient Wose
+#enddef
+#define STR_forest_l2_comm
+	Elvish High Lord
+#enddef
+#define STR_forest_l4_comm
+	Elvish Sylph
+#enddef
+#define STR_forest_l1_add
+	{STR_forest_l1_stan},{STR_forest_l2_comm}
+#enddef
+#define STR_forest_l2_add
+	{STR_forest_l2_stan},{STR_forest_l3_comm}
+#enddef
+#define STR_forest_l3_add
+	{STR_forest_l3_stan},{STR_forest_l4_comm}
+#enddef
+
+		{SETUNITLIST forestland ({STR_forest_l1_stan}) 
+({STR_forest_l1_add}) 
+({STR_forest_l2_stan},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add}) 
+({STR_forest_l2_stan},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add}) 
+({STR_forest_l2_stan},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add}) 
+({STR_forest_l2_stan},{STR_forest_l1_add},{STR_forest_l1_add},{STR_forest_l1_add}) 
+({STR_forest_l2_stan},{STR_forest_l1_add}) 
+({STR_forest_l2_add},{STR_forest_l1_add}) 
+({STR_forest_l3_stan},{STR_forest_l2_add},{STR_forest_l2_add},{STR_forest_l2_add},{STR_forest_l2_add},{STR_forest_l2_add}) 
+({STR_forest_l3_stan},{STR_forest_l2_add},{STR_forest_l2_add},{STR_forest_l2_add},{STR_forest_l2_add}) 
+({STR_forest_l3_stan},{STR_forest_l2_add},{STR_forest_l2_add},{STR_forest_l2_add}) 
+({STR_forest_l3_stan},{STR_forest_l2_add},{STR_forest_l2_add}) 
+({STR_forest_l3_stan},{STR_forest_l2_add}) 
+({STR_forest_l3_add},{STR_forest_l2_add}) 
+({STR_forest_l3_add}) 
+({STR_forest_l3_add},STR_forest_l3_add,Elvish High Lord, Elvish Sylph)}
+
+#define STR_forest_l1_merf
+	Merman Fighter, Merman Fighter, Merman Hunter, Merman Hunter, Mermaid Initiate, Mermaid Initiate
+#enddef
+#define STR_forest_l2_merf
+	Merman Warrior, Merman Warrior, Merman Spearman, Merman Netcaster, Mermaid Enchantress, Mermaid Priestess
+#enddef
+#define STR_forest_l3_merf
+	Merman Triton, Merman Hoplite, Merman Javelineer, Merman Entangler, Mermaid Siren, Mermaid Diviner
+#enddef
+
+		{SETUNITLIST forestwater ({STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l3_merf},{STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l2_merf}) 
+({STR_forest_l3_merf},{STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l2_merf}) 
+({STR_forest_l3_merf},{STR_forest_l2_merf},{STR_forest_l2_merf}) 
+({STR_forest_l3_merf},{STR_forest_l2_merf},{STR_forest_l2_merf}) 
+({STR_forest_l3_merf},{STR_forest_l2_merf}) 
+({STR_forest_l3_merf},{STR_forest_l2_merf}) 
+({STR_forest_l3_merf}) 
+({STR_forest_l3_merf})}
+
+#define STR_swamp_l1_saur_skir
+	Saurian Skirmisher, Saurian Skirmisher, Saurian Skirmisher, Saurian Skirmisher
+#enddef
+#define STR_swamp_l1_saur_aug
+	Saurian Augur, Saurian Augur
+#enddef
+#define STR_swamp_l2_saur_skir
+	Saurian Ambusher, Saurian Ambusher, Saurian Ambusher, Saurian Ambusher
+#enddef
+#define STR_swamp_l2_saur_aug
+	Saurian Soothsayer, Saurian Oracle
+#enddef
+#define STR_swamp_l3_saur_skir
+	Saurian Flanker, Saurian Flanker, Saurian Flanker, Saurian Flanker
+#enddef
+
+		{SETUNITLIST swampsaur ({STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug}) 
+({STR_swamp_l2_saur_skir},{STR_swamp_l1_saur_aug},{STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug},{STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug},{STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug}) 
+({STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug},{STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug},{STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug}) 
+({STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l1_saur_aug},{STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug},{STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug}) 
+({STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug},{STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug}) 
+({STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l1_saur_aug},{STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug}) 
+({STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l1_saur_skir},{STR_swamp_l1_saur_aug}) 
+({STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l1_saur_aug}) 
+({STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug}) 
+({STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug}) 
+({STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug}) 
+({STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l2_saur_skir},{STR_swamp_l2_saur_aug}) 
+({STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug}) 
+({STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug}) 
+({STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug}) 
+({STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir},{STR_swamp_l2_saur_aug},{STR_swamp_l3_saur_skir})}
+
+#define STR_swamp_l1_naga
+	Naga Fighter
+#enddef
+#define STR_swamp_l2_naga
+	Naga Warrior
+#enddef
+#define STR_swamp_l3_naga
+	Naga Myrmidon
+#enddef
+
+		{SETUNITLIST swampwater ({STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l3_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga}) 
+({STR_swamp_l3_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga}) 
+({STR_swamp_l3_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga}) 
+({STR_swamp_l3_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga}) 
+({STR_swamp_l3_naga},{STR_swamp_l2_naga}) 
+({STR_swamp_l3_naga},{STR_swamp_l2_naga}) 
+({STR_swamp_l3_naga}) 
+({STR_swamp_l3_naga})}
+
+#define STR_swamp_l1_band
+	Footpad, Footpad, Poacher, Poacher, Thief, Thief, Thug, Thug
+#enddef
+#define STR_swamp_l2_band
+	Outlaw, Outlaw, Trapper, Trapper, Rogue, Rogue, Bandit, Bandit
+#enddef
+#define STR_swamp_l3_band
+	Fugitive, Fugitive, Ranger, Huntsman, Assassin, Assassin, Highwayman, Highwayman
+#enddef
+
+		{SETUNITLIST swampwater ({STR_swamp_l1_band}) 
+({STR_swamp_l2_band},{STR_swamp_l1_band},{STR_swamp_l1_band},{STR_swamp_l1_band},{STR_swamp_l1_band},{STR_swamp_l1_band}) 
+({STR_swamp_l2_band},{STR_swamp_l1_band},{STR_swamp_l1_band},{STR_swamp_l1_band},{STR_swamp_l1_band}) 
+({STR_swamp_l2_band},{STR_swamp_l1_band},{STR_swamp_l1_band},{STR_swamp_l1_band}) 
+({STR_swamp_l2_band},{STR_swamp_l1_band},{STR_swamp_l1_band}) 
+({STR_swamp_l2_band},{STR_swamp_l2_band},{STR_swamp_l2_band},{STR_swamp_l1_band},{STR_swamp_l1_band},{STR_swamp_l1_band},{STR_swamp_l1_band}) 
+({STR_swamp_l2_band},{STR_swamp_l2_band},{STR_swamp_l2_band},{STR_swamp_l2_band},{STR_swamp_l1_band},{STR_swamp_l1_band},{STR_swamp_l1_band}) 
+({STR_swamp_l2_band},{STR_swamp_l2_band},{STR_swamp_l1_band},{STR_swamp_l1_band}) 
+({STR_swamp_l3_band},{STR_swamp_l2_band},{STR_swamp_l2_band},{STR_swamp_l2_band}) 
+({STR_swamp_l3_band},{STR_swamp_l2_band},{STR_swamp_l2_band},{STR_swamp_l2_band}) 
+({STR_swamp_l3_band},{STR_swamp_l2_band},{STR_swamp_l2_band}) 
+({STR_swamp_l3_band},{STR_swamp_l2_band},{STR_swamp_l2_band}) 
+({STR_swamp_l3_band},{STR_swamp_l2_band}) 
+({STR_swamp_l3_band},{STR_swamp_l2_band}) 
+({STR_swamp_l3_band}) 
+({STR_swamp_l3_band})}
+
+
+#define STR_mountain_l1_stan
+	Dwarvish Fighter, Dwarvish Fighter, Dwarvish Fighter, Dwarvish Thunderer, Dwarvish Thunderer, Dwarvish Guardsman, Dwarvish Guardsman, Dwarvish Scout, Dwarvish Scout, Dwarvish Ulfserker, Gryphon Rider
+#enddef
+#define STR_mountain_l2_stan
+	Dwarvish Steelclad, Dwarvish Steelclad, Dwarvish Steelclad, Dwarvish Thunderguard, Dwarvish Thunderguard, Dwarvish Stalwart, Dwarvish Stalwart, Dwarvish Pathfinder, Dwarvish Pathfinder, Dwarvish Berserker, Gryphon Master
+#enddef
+#define STR_mountain_l2_comm
+	Dwarvish Runesmith
+#enddef
+#define STR_mountain_l3_stan
+	Dwarvish Lord, Dwarvish Lord, Dwarvish Lord, Dwarvish Dragonguard, Dwarvish Dragonguard, Dwarvish Sentinel, Dwarvish Sentinel, Dwarvish Explorer, Dwarvish Explorer, Dwarvish Berserker, Gryphon Master
+#enddef
+#define STR_mountain_l3_comm
+	Dwarvish Runemaster
+#enddef
+#define STR_mountain_l4_comm
+	Dwarvish Arcanister
+#enddef
+#define STR_mountain_l1_add
+	{STR_mountain_l1_stan},{STR_mountain_l2_comm}
+#enddef
+#define STR_mountain_l2_add
+	{STR_mountain_l2_stan},{STR_mountain_l3_comm}
+#enddef
+#define STR_mountain_l3_add
+	{STR_mountain_l3_stan},{STR_mountain_l4_comm}
+#enddef
+
+		{SETUNITLIST mountainland ({STR_mountain_l1_stan}) 
+({STR_mountain_l1_add}) 
+({STR_mountain_l2_stan},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add}) 
+({STR_mountain_l2_stan},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add}) 
+({STR_mountain_l2_stan},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add}) 
+({STR_mountain_l2_stan},{STR_mountain_l1_add},{STR_mountain_l1_add},{STR_mountain_l1_add}) 
+({STR_mountain_l2_stan},{STR_mountain_l1_add}) 
+({STR_mountain_l2_add},{STR_mountain_l1_add}) 
+({STR_mountain_l3_stan},{STR_mountain_l2_add},{STR_mountain_l2_add},{STR_mountain_l2_add},{STR_mountain_l2_add},{STR_mountain_l2_add}) 
+({STR_mountain_l3_stan},{STR_mountain_l2_add},{STR_mountain_l2_add},{STR_mountain_l2_add},{STR_mountain_l2_add}) 
+({STR_mountain_l3_stan},{STR_mountain_l2_add},{STR_mountain_l2_add},{STR_mountain_l2_add}) 
+({STR_mountain_l3_stan},{STR_mountain_l2_add},{STR_mountain_l2_add}) 
+({STR_mountain_l3_stan},{STR_mountain_l2_add}) 
+({STR_mountain_l3_add},{STR_mountain_l2_add}) 
+({STR_mountain_l3_add}) 
+({STR_mountain_l3_add},{STR_mountain_l3_add},Dwarvish Arcanister)}
+
+		{SETUNITLIST mountainwater (Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf)
+(Cuttle Fish, Wolf)
+(Cuttle Fish)
+(Cuttle Fish)
+(Cuttle Fish)
+(Cuttle Fish)
+(Cuttle Fish)
+(Cuttle Fish)}
+
+
+#define STR_desert_l1_stan
+	Drake Burner, Drake Burner, Drake Fighter, Drake Fighter, Drake Clasher, Drake Clasher, Drake Glider, Drake Glider
+#enddef
+#define STR_desert_l2_stan
+	Drake Flare, Fire Drake, Drake Warrior, Drake Warrior, Drake Thrasher, Drake Arbiter, Sky Drake, Sky Drake
+#enddef
+#define STR_desert_l2_comm
+	Drake Flare
+#enddef
+#define STR_desert_l3_stan
+	Drake Flameheart, Inferno Drake, Drake Blademaster, Drake Blademaster, Drake Enforcer, Drake Warden, Hurricane Drake, Hurricane Drake
+#enddef
+#define STR_desert_l3_comm
+	Drake Flameheart
+#enddef
+#define STR_desert_l4_comm
+	Armageddon Drake
+#enddef
+#define STR_desert_l1_add
+	{STR_desert_l1_stan},{STR_desert_l2_comm}
+#enddef
+#define STR_desert_l2_add
+	{STR_desert_l2_stan},{STR_desert_l3_comm}
+#enddef
+#define STR_desert_l3_add
+	{STR_desert_l3_stan},{STR_desert_l4_comm}
+#enddef
+
+		{SETUNITLIST desertland ({STR_desert_l1_stan}) 
+({STR_desert_l1_add}) 
+({STR_desert_l2_stan},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add}) 
+({STR_desert_l2_stan},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add}) 
+({STR_desert_l2_stan},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add}) 
+({STR_desert_l2_stan},{STR_desert_l1_add},{STR_desert_l1_add},{STR_desert_l1_add}) 
+({STR_desert_l2_stan},{STR_desert_l1_add}) 
+({STR_desert_l2_add},{STR_desert_l1_add}) 
+({STR_desert_l3_stan},{STR_desert_l2_add},{STR_desert_l2_add},{STR_desert_l2_add},{STR_desert_l2_add},{STR_desert_l2_add}) 
+({STR_desert_l3_stan},{STR_desert_l2_add},{STR_desert_l2_add},{STR_desert_l2_add},{STR_desert_l2_add}) 
+({STR_desert_l3_stan},{STR_desert_l2_add},{STR_desert_l2_add},{STR_desert_l2_add}) 
+({STR_desert_l3_stan},{STR_desert_l2_add},{STR_desert_l2_add}) 
+({STR_desert_l3_stan},{STR_desert_l2_add}) 
+({STR_desert_l3_add},{STR_desert_l2_add}) 
+({STR_desert_l3_add}) 
+({STR_desert_l3_add},{STR_desert_l3_add},Fire Dragon)}
+
+		{SETUNITLIST desertwater (Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler)
+(Water Serpent, Mudcrawler)
+(Water Serpent)
+(Water Serpent)
+(Water Serpent)
+(Water Serpent)
+(Water Serpent)
+(Water Serpent)}
+
+
+#define STR_caveund_l1_stan
+	Skeleton, Skeleton, Skeleton Archer, Skeleton Archer, Ghost, Ghost, Ghoul, Ghoul, Walking Corpse, Walking Corpse, Dark Adept, Dark Adept
+#enddef
+#define STR_caveund_l2_stan
+	Deathblade, Revenant, Bone Shooter, Bone Shooter, Wraith, Shadow, Necrophage, Necrophage, Soulless, Souless, Dark Sorcerer, Dark Sorcerer
+#enddef
+#define STR_caveund_l2_comm
+	Chocobone
+#enddef
+#define STR_caveund_l3_stan
+	Draug, Draug, Banebow, Banebow, Spectre, Nightgaunt, Ghast, Ghast, Lich, Necromancer
+#enddef
+#define STR_caveund_l3_comm
+	Death Knight
+#enddef
+#define STR_caveund_l4_comm
+	Ancient Lich
+#enddef
+#define STR_caveund_l1_add
+	{STR_caveund_l1_stan},{STR_caveund_l2_comm}
+#enddef
+#define STR_caveund_l2_add
+	{STR_caveund_l2_stan},{STR_caveund_l3_comm}
+#enddef
+#define STR_caveund_l3_add
+	{STR_caveund_l3_stan},{STR_caveund_l4_comm}
+#enddef
+
+		{SETUNITLIST caveund ({STR_caveund_l1_stan}) 
+({STR_caveund_l1_add}) 
+({STR_caveund_l2_stan},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add}) 
+({STR_caveund_l2_stan},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add}) 
+({STR_caveund_l2_stan},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add}) 
+({STR_caveund_l2_stan},{STR_caveund_l1_add},{STR_caveund_l1_add},{STR_caveund_l1_add}) 
+({STR_caveund_l2_stan},{STR_caveund_l1_add}) 
+({STR_caveund_l2_add},{STR_caveund_l1_add}) 
+({STR_caveund_l3_stan},{STR_caveund_l2_add},{STR_caveund_l2_add},{STR_caveund_l2_add},{STR_caveund_l2_add},{STR_caveund_l2_add}) 
+({STR_caveund_l3_stan},{STR_caveund_l2_add},{STR_caveund_l2_add},{STR_caveund_l2_add},{STR_caveund_l2_add}) 
+({STR_caveund_l3_stan},{STR_caveund_l2_add},{STR_caveund_l2_add},{STR_caveund_l2_add}) 
+({STR_caveund_l3_stan},{STR_caveund_l2_add},{STR_caveund_l2_add}) 
+({STR_caveund_l3_stan},{STR_caveund_l2_add}) 
+({STR_caveund_l3_add},{STR_caveund_l2_add}) 
+({STR_caveund_l3_add}) 
+({STR_caveund_l3_add},{STR_caveund_l3_add},Bone Dragon)}
+
+		{SETUNITLIST cavewater (Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep)}
+
+#define STR_cavetroll_l1_stan
+	Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp
+#enddef
+#define STR_cavetroll_l2_stan
+	Troll, Troll, Troll, Troll, Troll, Troll, Troll, Troll, Troll Rocklobber, Troll Rocklobber, Troll Rocklobber, Troll Rocklobber
+#enddef
+#define STR_cavetroll_l2_comm
+	Troll Shaman, Troll Shaman
+#enddef
+#define STR_cavetroll_l3_stan
+	Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Rocklobber, Troll Rocklobber
+#enddef
+#define STR_cavetroll_l3_comm
+	Troll Hero, Troll Shaman
+#enddef
+#define STR_cavetroll_l4_comm
+	Great Troll, Troll Shaman
+#enddef
+#define STR_cavetroll_l1_add
+	{STR_cavetroll_l1_stan},{STR_cavetroll_l2_comm
+#enddef
+#define STR_cavetroll_l2_add
+	{STR_cavetroll_l2_stan},{STR_cavetroll_l3_comm
+#enddef
+#define STR_cavetroll_l3_add
+	{STR_cavetroll_l3_stan},{STR_cavetroll_l4_comm
+#enddef
+
+		{SETUNITLIST cavetroll ({STR_cavetroll_l1_stan}) 
+({STR_cavetroll_l1_add}) 
+({STR_cavetroll_l2_stan},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add}) 
+({STR_cavetroll_l2_stan},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add}) 
+({STR_cavetroll_l2_stan},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add}) 
+({STR_cavetroll_l2_stan},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add},{STR_cavetroll_l1_add}) 
+({STR_cavetroll_l2_stan},{STR_cavetroll_l1_add}) 
+({STR_cavetroll_l2_add},{STR_cavetroll_l1_add}) 
+({STR_cavetroll_l3_stan},{STR_cavetroll_l2_add},{STR_cavetroll_l2_add},{STR_cavetroll_l2_add},{STR_cavetroll_l2_add},{STR_cavetroll_l2_add}) 
+({STR_cavetroll_l3_stan},{STR_cavetroll_l2_add},{STR_cavetroll_l2_add},{STR_cavetroll_l2_add},{STR_cavetroll_l2_add}) 
+({STR_cavetroll_l3_stan},{STR_cavetroll_l2_add},{STR_cavetroll_l2_add},{STR_cavetroll_l2_add}) 
+({STR_cavetroll_l3_stan},{STR_cavetroll_l2_add},{STR_cavetroll_l2_add}) 
+({STR_cavetroll_l3_stan},{STR_cavetroll_l2_add}) 
+({STR_cavetroll_l3_add},{STR_cavetroll_l2_add}) 
+({STR_cavetroll_l3_add}) 
+({STR_cavetroll_l3_add}, Great Troll, Troll Shaman)}
+
+
+#define STR_iceorc_l1_stan
+	Orcish Grunt, Orcish Grunt, Orcish Archer, Orcish Archer, Orcish Assassin, Orcish Assassin
+#enddef
+#define STR_iceorc_l1_comm
+	Orcish Leader
+#enddef
+#define STR_iceorc_l2_stan
+	Orcish Warrior, Orcish Warrior, Orcish Crossbowman, Orcish Crossbowman, Orcish Slayer, Orcish Slayer
+#enddef
+#define STR_iceorc_l2_comm
+	Orcish Ruler
+#enddef
+#define STR_iceorc_l3_stan
+	Orcish Warlord, Orcish Warlord, Orcish Slurbow, Orcish Slurbow, Orcish Nightblade, Orcish Slayer
+#enddef
+#define STR_iceorc_l3_comm
+	Orcish Sovereign
+#enddef
+#define STR_iceorc_l1_add
+	{STR_iceorc_l1_stan},{STR_iceorc_l2_comm
+#enddef
+#define STR_iceorc_l2_add
+	{STR_iceorc_l2_stan},{STR_iceorc_l3_comm
+#enddef
+#define STR_iceorc_l3_add
+	{STR_iceorc_l3_stan, Orcish Warlord
+#enddef
+
+		{SETUNITLIST iceorc ({STR_iceorc_l1_stan},{STR_iceorc_l1_comm}) 
+({STR_iceorc_l1_add}) 
+({STR_iceorc_l2_stan},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add}) 
+({STR_iceorc_l2_stan},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add}) 
+({STR_iceorc_l2_stan},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add}) 
+({STR_iceorc_l2_stan},{STR_iceorc_l1_add},{STR_iceorc_l1_add},{STR_iceorc_l1_add}) 
+({STR_iceorc_l2_stan},{STR_iceorc_l1_add}) 
+({STR_iceorc_l2_add},{STR_iceorc_l1_add}) 
+({STR_iceorc_l3_stan},{STR_iceorc_l2_add},{STR_iceorc_l2_add},{STR_iceorc_l2_add},{STR_iceorc_l2_add},{STR_iceorc_l2_add}) 
+({STR_iceorc_l3_stan},{STR_iceorc_l2_add},{STR_iceorc_l2_add},{STR_iceorc_l2_add},{STR_iceorc_l2_add}) 
+({STR_iceorc_l3_stan},{STR_iceorc_l2_add},{STR_iceorc_l2_add},{STR_iceorc_l2_add}) 
+({STR_iceorc_l3_stan},{STR_iceorc_l2_add},{STR_iceorc_l2_add}) 
+({STR_iceorc_l3_stan},{STR_iceorc_l2_add}) 
+({STR_iceorc_l3_add},{STR_iceorc_l2_add}) 
+({STR_iceorc_l3_add}) 
+({STR_iceorc_l3_add},{STR_iceorc_l3_add}, Orcish Sovereign)}
+
+#define STR_forest_l1_merf
+	Merman Fighter, Merman Fighter, Merman Hunter, Merman Hunter, Mermaid Initiate, Mermaid Initiate
+#enddef
+#define STR_forest_l2_merf
+	Merman Warrior, Merman Warrior, Merman Spearman, Merman Netcaster, Mermaid Enchantress, Mermaid Priestess
+#enddef
+#define STR_forest_l3_merf
+	Merman Triton, Merman Hoplite, Merman Javelineer, Merman Entangler, Mermaid Siren, Mermaid Diviner
+#enddef
+
+		{SETUNITLIST icemerfs ({STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l1_merf},{STR_forest_l1_merf}) 
+({STR_forest_l3_merf},{STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l2_merf}) 
+({STR_forest_l3_merf},{STR_forest_l2_merf},{STR_forest_l2_merf},{STR_forest_l2_merf}) 
+({STR_forest_l3_merf},{STR_forest_l2_merf},{STR_forest_l2_merf}) 
+({STR_forest_l3_merf},{STR_forest_l2_merf},{STR_forest_l2_merf}) 
+({STR_forest_l3_merf},{STR_forest_l2_merf}) 
+({STR_forest_l3_merf},{STR_forest_l2_merf}) 
+({STR_forest_l3_merf}) 
+({STR_forest_l3_merf})}
+
+
+#define STR_icegob_l1
+	Orcish Leader, Goblin Spearman, Goblin Spearman, Goblin Spearman, Goblin Spearman
+#enddef
+#define STR_icegob_l2
+	Orcish Ruler, Goblin Impaler, Goblin Spearman, Goblin Spearman, Goblin Spearman
+#enddef
+#define STR_icegob_l3
+	Orcish Sovereign, Goblin Impaler, Goblin Rouser, Goblin Spearman, Goblin Spearman
+#enddef
+
+		{SETUNITLIST icegoblins ({STR_icegob_l1}) 
+({STR_icegob_l2},{STR_icegob_l1},{STR_icegob_l1},{STR_icegob_l1},{STR_icegob_l1},{STR_icegob_l1}) 
+({STR_icegob_l2},{STR_icegob_l1},{STR_icegob_l1},{STR_icegob_l1},{STR_icegob_l1}) 
+({STR_icegob_l2},{STR_icegob_l1},{STR_icegob_l1},{STR_icegob_l1}) 
+({STR_icegob_l2},{STR_icegob_l1},{STR_icegob_l1}) 
+({STR_icegob_l2},{STR_icegob_l2},{STR_icegob_l2},{STR_icegob_l1},{STR_icegob_l1},{STR_icegob_l1},{STR_icegob_l1}) 
+({STR_icegob_l2},{STR_icegob_l2},{STR_icegob_l2},{STR_icegob_l2},{STR_icegob_l1},{STR_icegob_l1},{STR_icegob_l1}) 
+({STR_icegob_l2},{STR_icegob_l2},{STR_icegob_l1},{STR_icegob_l1}) 
+({STR_icegob_l3},{STR_icegob_l2},{STR_icegob_l2},{STR_icegob_l2}) 
+({STR_icegob_l3},{STR_icegob_l2},{STR_icegob_l2},{STR_icegob_l2}) 
+({STR_icegob_l3},{STR_icegob_l2},{STR_icegob_l2}) 
+({STR_icegob_l3},{STR_icegob_l2},{STR_icegob_l2}) 
+({STR_icegob_l3},{STR_icegob_l2}) 
+({STR_icegob_l3},{STR_icegob_l2}) 
+({STR_icegob_l3}) 
+({STR_icegob_l3})}
+		
+		{SETUNITLIST icerepts ({STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l1_naga},{STR_swamp_l1_naga}) 
+({STR_swamp_l3_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga}) 
+({STR_swamp_l3_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga}) 
+({STR_swamp_l3_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga}) 
+({STR_swamp_l3_naga},{STR_swamp_l2_naga},{STR_swamp_l2_naga}) 
+({STR_swamp_l3_naga},{STR_swamp_l2_naga}) 
+({STR_swamp_l3_naga},{STR_swamp_l2_naga}) 
+({STR_swamp_l3_naga}) 
+({STR_swamp_l3_naga})}
+
+#define STR_void_l1
+	Gryphon Rider, Drake Glider, Vampire Bat, Ghost, Falcon
+#enddef
+#define STR_void_l2
+	Gryphon Master, Sky Drake, Blood Bat, Wraith, Falcon
+#enddef
+#define STR_void_l3
+	Gryphon Master, Hurricane Drake, Dread Bat, Spectre, Elder Falcon
+#enddef
+
+		{SETUNITLIST void ({STR_void_l1}) 
+({STR_void_l2},{STR_void_l1},{STR_void_l1},{STR_void_l1},{STR_void_l1},{STR_void_l1}) 
+({STR_void_l2},{STR_void_l1},{STR_void_l1},{STR_void_l1},{STR_void_l1}) 
+({STR_void_l2},{STR_void_l1},{STR_void_l1},{STR_void_l1}) 
+({STR_void_l2},{STR_void_l1},{STR_void_l1}) 
+({STR_void_l2},{STR_void_l2},{STR_void_l2},{STR_void_l1},{STR_void_l1},{STR_void_l1},{STR_void_l1}) 
+({STR_void_l2},{STR_void_l2},{STR_void_l2},{STR_void_l2},{STR_void_l1},{STR_void_l1},{STR_void_l1}) 
+({STR_void_l2},{STR_void_l2},{STR_void_l1},{STR_void_l1}) 
+({STR_void_l3},{STR_void_l2},{STR_void_l2},{STR_void_l2}) 
+({STR_void_l3},{STR_void_l2},{STR_void_l2},{STR_void_l2}) 
+({STR_void_l3},{STR_void_l2},{STR_void_l2}) 
+({STR_void_l3},{STR_void_l2},{STR_void_l2}) 
+({STR_void_l3},{STR_void_l2}) 
+({STR_void_l3},{STR_void_l2}) 
+({STR_void_l3}) 
+({STR_void_l3})}
+
+
+#define STR_end_l1
+	Heavy Infantryman, Dwarvish Ulfserker, Young Ogre, Wolf, Giant Rat
+#enddef
+#define STR_end_l2
+	Shock Trooper, Dwarvish Berserker, Ogre, Great Wolf, Giant Mudcrawler
+#enddef
+#define STR_end_l3
+	Iron Mauler, Dwarvish Berserker, Dire Wolf, Giant Spider
+#enddef
+
+		{SETUNITLIST end ({STR_end_l1}) 
+({STR_end_l2},{STR_end_l1},{STR_end_l1},{STR_end_l1},{STR_end_l1},{STR_end_l1}) 
+({STR_end_l2},{STR_end_l1},{STR_end_l1},{STR_end_l1},{STR_end_l1}) 
+({STR_end_l2},{STR_end_l1},{STR_end_l1},{STR_end_l1}) 
+({STR_end_l2},{STR_end_l1},{STR_end_l1}) 
+({STR_end_l2},{STR_end_l2},{STR_end_l2},{STR_end_l1},{STR_end_l1},{STR_end_l1},{STR_end_l1}) 
+({STR_end_l2},{STR_end_l2},{STR_end_l2},{STR_end_l2},{STR_end_l1},{STR_end_l1},{STR_end_l1}) 
+({STR_end_l2},{STR_end_l2},{STR_end_l1},{STR_end_l1}) 
+({STR_end_l3},{STR_end_l2},{STR_end_l2},{STR_end_l2}) 
+({STR_end_l3},{STR_end_l2},{STR_end_l2},{STR_end_l2}) 
+({STR_end_l3},{STR_end_l2},{STR_end_l2}) 
+({STR_end_l3},{STR_end_l2},{STR_end_l2}) 
+({STR_end_l3},{STR_end_l2}) 
+({STR_end_l3},{STR_end_l2}) 
+({STR_end_l3}) 
+({STR_end_l3}, Yeti)}
+#enddef
+#define URGRGRG
+		{VARIABLE_OP loyal_l1_merf_mil value (Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter, Merman Fighter)}
+		{VARIABLE_OP loyal_l1_merf_oth value (Merman Hunter, Merman Hunter, Mermaid Initiate, Mermaid Initiate)}
+		{VARIABLE_OP loyal_l2_merf_mil value (Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior, Merman Warrior)}
+		{VARIABLE_OP loyal_l2_merf_oth value (Merman Spearman, Merman Netcaster, Mermaid Enchantress, Mermaid Priestess)}
+		{VARIABLE_OP loyal_l3_merf_mil value (Merman Triton, Merman Triton, Merman Triton, Merman Triton, Merman Triton, Merman Triton, Merman Hoplite, Merman Hoplite)}
+		{VARIABLE_OP loyal_l3_merf_oth value (Merman Javelineer, Merman Entangler, Mermaid Siren, Mermaid Diviner)}
+
+		{VARIABLE_OP forest_l1_stan value (Elvish Fighter, Elvish Fighter, Elvish Fighter, Elvish Fighter, Elvish Archer, Elvish Archer, Elvish Archer, Elvish Archer, Elvish Shaman, Elvish Shaman, Wose, Wose)}
+		{VARIABLE_OP forest_l2_stan value (Elvish Captain, Elvish Captain, Elvish Hero, Elvish Hero, Elvish Ranger, Elvish Ranger, Elvish Marksman, Elvish Marksman, Elvish Druid, Elvish Sorceress, Elvish Rider, Elvish Rider, Elder Wose, Elder Wose)}
+		{VARIABLE_OP forest_l2_comm value (Elvish Lord)}
+		{VARIABLE_OP forest_l3_stan value (Elvish Marshal, Elvish Marshal, Elvish Champion, Elvish Champion, Elvish Avenger, Elvish Avenger, Elvish Sharpshooter, Elvish Sharpshooter, Elvish Shyde, Elvish Enchantress, Elvish Outrider, Elvish Outrider, Ancient Wose, Ancient Wose)}
+		{VARIABLE_OP forest_l2_comm value (Elvish High Lord)}
+		{VARIABLE_OP forest_l4_comm value (Elvish Sylph)}
+		{VARIABLE_OP forest_l1_add value ($forest_l1_stan, $forest_l2_comm)}
+		{VARIABLE_OP forest_l2_add value ($forest_l2_stan, $forest_l3_comm)}
+		{VARIABLE_OP forest_l3_add value ($forest_l3_stan, $forest_l4_comm)}
+
+		{SETUNITLIST forestland ($forest_l1_stan) 
+($forest_l1_add) 
+($forest_l2_stan,$forest_l1_add,$forest_l1_add,$forest_l1_add,$forest_l1_add,$forest_l1_add,$forest_l1_add,$forest_l1_add,$forest_l1_add,$forest_l1_add) 
+($forest_l2_stan,$forest_l1_add,$forest_l1_add,$forest_l1_add,$forest_l1_add,$forest_l1_add,$forest_l1_add,$forest_l1_add) 
+($forest_l2_stan,$forest_l1_add,$forest_l1_add,$forest_l1_add,$forest_l1_add,$forest_l1_add) 
+($forest_l2_stan,$forest_l1_add,$forest_l1_add,$forest_l1_add) 
+($forest_l2_stan,$forest_l1_add) 
+($forest_l2_add,$forest_l1_add) 
+($forest_l3_stan,$forest_l2_add,$forest_l2_add,$forest_l2_add,$forest_l2_add,$forest_l2_add) 
+($forest_l3_stan,$forest_l2_add,$forest_l2_add,$forest_l2_add,$forest_l2_add) 
+($forest_l3_stan,$forest_l2_add,$forest_l2_add,$forest_l2_add) 
+($forest_l3_stan,$forest_l2_add,$forest_l2_add) 
+($forest_l3_stan,$forest_l2_add) 
+($forest_l3_add,$forest_l2_add) 
+($forest_l3_add) 
+($forest_l3_add,$forest_l3_add,Elvish High Lord, Elvish Sylph)}
+
+		{VARIABLE_OP forest_l1_merf value (Merman Fighter, Merman Fighter, Merman Hunter, Merman Hunter, Mermaid Initiate, Mermaid Initiate)}
+		{VARIABLE_OP forest_l2_merf value (Merman Warrior, Merman Warrior, Merman Spearman, Merman Netcaster, Mermaid Enchantress, Mermaid Priestess)}
+		{VARIABLE_OP forest_l3_merf value (Merman Triton, Merman Hoplite, Merman Javelineer, Merman Entangler, Mermaid Siren, Mermaid Diviner)}
+
+		{SETUNITLIST forestwater ($forest_l1_merf) 
+($forest_l2_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l2_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l2_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l2_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l2_merf, $forest_l2_merf, $forest_l2_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l2_merf, $forest_l2_merf, $forest_l2_merf, $forest_l2_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l2_merf, $forest_l2_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l3_merf, $forest_l2_merf, $forest_l2_merf, $forest_l2_merf) 
+($forest_l3_merf, $forest_l2_merf, $forest_l2_merf, $forest_l2_merf) 
+($forest_l3_merf, $forest_l2_merf, $forest_l2_merf) 
+($forest_l3_merf, $forest_l2_merf, $forest_l2_merf) 
+($forest_l3_merf, $forest_l2_merf) 
+($forest_l3_merf, $forest_l2_merf) 
+($forest_l3_merf) 
+($forest_l3_merf) }
+
+		{VARIABLE_OP swamp_l1_saur_skir value (Saurian Skirmisher, Saurian Skirmisher, Saurian Skirmisher, Saurian Skirmisher)}
+		{VARIABLE_OP swamp_l1_saur_aug value (Saurian Augur, Saurian Augur)}
+		{VARIABLE_OP swamp_l2_saur_skir value (Saurian Ambusher, Saurian Ambusher, Saurian Ambusher, Saurian Ambusher)}
+		{VARIABLE_OP swamp_l2_saur_aug value (Saurian Soothsayer, Saurian Oracle)}
+		{VARIABLE_OP swamp_l3_saur_skir value (Saurian Flanker, Saurian Flanker, Saurian Flanker, Saurian Flanker)}
+
+		{SETUNITLIST swampsaur ($swamp_l1_saur_skir, $swamp_l1_saur_aug) 
+($swamp_l2_saur_skir, $swamp_l1_saur_aug, $swamp_l1_saur_skir, $swamp_l1_saur_aug, $swamp_l1_saur_skir, $swamp_l1_saur_aug, $swamp_l1_saur_skir, $swamp_l1_saur_aug) 
+($swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l1_saur_skir, $swamp_l1_saur_aug, $swamp_l1_saur_skir, $swamp_l1_saur_aug, $swamp_l1_saur_skir, $swamp_l1_saur_aug) 
+($swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l1_saur_aug, $swamp_l1_saur_skir, $swamp_l1_saur_aug, $swamp_l1_saur_skir, $swamp_l1_saur_aug) 
+($swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l1_saur_skir, $swamp_l1_saur_aug, $swamp_l1_saur_skir, $swamp_l1_saur_aug) 
+($swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l1_saur_aug, $swamp_l1_saur_skir, $swamp_l1_saur_aug) 
+($swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l1_saur_skir, $swamp_l1_saur_aug) 
+($swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l1_saur_aug) 
+($swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug) 
+($swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug) 
+($swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug) 
+($swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l2_saur_skir, $swamp_l2_saur_aug) 
+($swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug) 
+($swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug) 
+($swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug)
+($swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir, $swamp_l2_saur_aug, $swamp_l3_saur_skir)}
+
+		{VARIABLE_OP swamp_l1_naga value (Naga Fighter)}
+		{VARIABLE_OP swamp_l2_naga value (Naga Warrior)}
+		{VARIABLE_OP swamp_l3_naga value (Naga Myrmidon)}
+
+		{SETUNITLIST swampwater ($swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l2_naga, $swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l2_naga, $swamp_l2_naga, $swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l3_naga, $swamp_l2_naga, $swamp_l2_naga, $swamp_l2_naga) 
+($swamp_l3_naga, $swamp_l2_naga, $swamp_l2_naga, $swamp_l2_naga) 
+($swamp_l3_naga, $swamp_l2_naga, $swamp_l2_naga) 
+($swamp_l3_naga, $swamp_l2_naga, $swamp_l2_naga) 
+($swamp_l3_naga, $swamp_l2_naga) 
+($swamp_l3_naga, $swamp_l2_naga) 
+($swamp_l3_naga) 
+($swamp_l3_naga)}
+
+		{VARIABLE_OP swamp_l1_band value (Footpad, Footpad, Poacher, Poacher, Thief, Thief, Thug, Thug)}
+		{VARIABLE_OP swamp_l2_band value (Outlaw, Outlaw, Trapper, Trapper, Rogue, Rogue, Bandit, Bandit)}
+		{VARIABLE_OP swamp_l3_band value (Fugitive, Fugitive, Ranger, Huntsman, Assassin, Assassin, Highwayman, Highwayman)}
+
+		{SETUNITLIST swampwater ($swamp_l1_band) 
+($swamp_l2_band, $swamp_l1_band, $swamp_l1_band, $swamp_l1_band, $swamp_l1_band, $swamp_l1_band) 
+($swamp_l2_band, $swamp_l1_band, $swamp_l1_band, $swamp_l1_band, $swamp_l1_band) 
+($swamp_l2_band, $swamp_l1_band, $swamp_l1_band, $swamp_l1_band) 
+($swamp_l2_band, $swamp_l1_band, $swamp_l1_band) 
+($swamp_l2_band, $swamp_l2_band, $swamp_l2_band, $swamp_l1_band, $swamp_l1_band, $swamp_l1_band, $swamp_l1_band) 
+($swamp_l2_band, $swamp_l2_band, $swamp_l2_band, $swamp_l2_band, $swamp_l1_band, $swamp_l1_band, $swamp_l1_band) 
+($swamp_l2_band, $swamp_l2_band, $swamp_l1_band, $swamp_l1_band) 
+($swamp_l3_band, $swamp_l2_band, $swamp_l2_band, $swamp_l2_band) 
+($swamp_l3_band, $swamp_l2_band, $swamp_l2_band, $swamp_l2_band) 
+($swamp_l3_band, $swamp_l2_band, $swamp_l2_band) 
+($swamp_l3_band, $swamp_l2_band, $swamp_l2_band) 
+($swamp_l3_band, $swamp_l2_band) 
+($swamp_l3_band, $swamp_l2_band) 
+($swamp_l3_band) 
+($swamp_l3_band)}
+
+
+		{VARIABLE_OP mountain_l1_stan value (Dwarvish Fighter, Dwarvish Fighter, Dwarvish Fighter, Dwarvish Thunderer, Dwarvish Thunderer, Dwarvish Guardsman, Dwarvish Guardsman, Dwarvish Scout, Dwarvish Scout, Dwarvish Ulfserker, Gryphon Rider)}
+		{VARIABLE_OP mountain_l2_stan value (Dwarvish Steelclad, Dwarvish Steelclad, Dwarvish Steelclad, Dwarvish Thunderguard, Dwarvish Thunderguard, Dwarvish Stalwart, Dwarvish Stalwart, Dwarvish Pathfinder, Dwarvish Pathfinder, Dwarvish Berserker, Gryphon Master)}
+		{VARIABLE_OP mountain_l2_comm value (Dwarvish Runesmith)}
+		{VARIABLE_OP mountain_l3_stan value (Dwarvish Lord, Dwarvish Lord, Dwarvish Lord, Dwarvish Dragonguard, Dwarvish Dragonguard, Dwarvish Sentinel, Dwarvish Sentinel, Dwarvish Explorer, Dwarvish Explorer, Dwarvish Berserker, Gryphon Master)}
+		{VARIABLE_OP mountain_l3_comm value (Dwarvish Runemaster)}
+		{VARIABLE_OP mountain_l4_comm value (Dwarvish Arcanister)}
+		{VARIABLE_OP mountain_l1_add value ($mountain_l1_stan, $mountain_l2_comm)}
+		{VARIABLE_OP mountain_l2_add value ($mountain_l2_stan, $mountain_l3_comm)}
+		{VARIABLE_OP mountain_l3_add value ($mountain_l3_stan, $mountain_l4_comm)}
+
+		{SETUNITLIST mountainland ($mountain_l1_stan) 
+($mountain_l1_add) 
+($mountain_l2_stan,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add) 
+($mountain_l2_stan,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add) 
+($mountain_l2_stan,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add) 
+($mountain_l2_stan,$mountain_l1_add,$mountain_l1_add,$mountain_l1_add) 
+($mountain_l2_stan,$mountain_l1_add) 
+($mountain_l2_add,$mountain_l1_add) 
+($mountain_l3_stan,$mountain_l2_add,$mountain_l2_add,$mountain_l2_add,$mountain_l2_add,$mountain_l2_add) 
+($mountain_l3_stan,$mountain_l2_add,$mountain_l2_add,$mountain_l2_add,$mountain_l2_add) 
+($mountain_l3_stan,$mountain_l2_add,$mountain_l2_add,$mountain_l2_add) 
+($mountain_l3_stan,$mountain_l2_add,$mountain_l2_add) 
+($mountain_l3_stan,$mountain_l2_add) 
+($mountain_l3_add,$mountain_l2_add) 
+($mountain_l3_add) 
+($mountain_l3_add,$mountain_l3_add,Dwarvish Arcanister)}
+
+		{SETUNITLIST mountainwater (Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf, Wolf)
+(Cuttle Fish, Wolf)
+(Cuttle Fish, Wolf)
+(Cuttle Fish)
+(Cuttle Fish)
+(Cuttle Fish)
+(Cuttle Fish)
+(Cuttle Fish)
+(Cuttle Fish)}
+
+
+		{VARIABLE_OP desert_l1_stan value (Drake Burner, Drake Burner, Drake Fighter, Drake Fighter, Drake Clasher, Drake Clasher, Drake Glider, Drake Glider)}
+		{VARIABLE_OP desert_l2_stan value (Drake Flare, Fire Drake, Drake Warrior, Drake Warrior, Drake Thrasher, Drake Arbiter, Sky Drake, Sky Drake)}
+		{VARIABLE_OP desert_l2_comm value (Drake Flare)}
+		{VARIABLE_OP desert_l3_stan value (Drake Flameheart, Inferno Drake, Drake Blademaster, Drake Blademaster, Drake Enforcer, Drake Warden, Hurricane Drake, Hurricane Drake)}
+		{VARIABLE_OP desert_l3_comm value (Drake Flameheart)}
+		{VARIABLE_OP desert_l4_comm value (Armageddon Drake)}
+		{VARIABLE_OP desert_l1_add value ($desert_l1_stan, $desert_l2_comm)}
+		{VARIABLE_OP desert_l2_add value ($desert_l2_stan, $desert_l3_comm)}
+		{VARIABLE_OP desert_l3_add value ($desert_l3_stan, $desert_l4_comm)}
+
+		{SETUNITLIST desertland ($desert_l1_stan) 
+($desert_l1_add) 
+($desert_l2_stan,$desert_l1_add,$desert_l1_add,$desert_l1_add,$desert_l1_add,$desert_l1_add,$desert_l1_add,$desert_l1_add,$desert_l1_add,$desert_l1_add) 
+($desert_l2_stan,$desert_l1_add,$desert_l1_add,$desert_l1_add,$desert_l1_add,$desert_l1_add,$desert_l1_add,$desert_l1_add) 
+($desert_l2_stan,$desert_l1_add,$desert_l1_add,$desert_l1_add,$desert_l1_add,$desert_l1_add) 
+($desert_l2_stan,$desert_l1_add,$desert_l1_add,$desert_l1_add) 
+($desert_l2_stan,$desert_l1_add) 
+($desert_l2_add,$desert_l1_add) 
+($desert_l3_stan,$desert_l2_add,$desert_l2_add,$desert_l2_add,$desert_l2_add,$desert_l2_add) 
+($desert_l3_stan,$desert_l2_add,$desert_l2_add,$desert_l2_add,$desert_l2_add) 
+($desert_l3_stan,$desert_l2_add,$desert_l2_add,$desert_l2_add) 
+($desert_l3_stan,$desert_l2_add,$desert_l2_add) 
+($desert_l3_stan,$desert_l2_add) 
+($desert_l3_add,$desert_l2_add) 
+($desert_l3_add) 
+($desert_l3_add,$desert_l3_add,Fire Dragon)}
+
+		{SETUNITLIST desertwater (Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler, Mudcrawler)
+(Water Serpent, Mudcrawler)
+(Water Serpent, Mudcrawler)
+(Water Serpent)
+(Water Serpent)
+(Water Serpent)
+(Water Serpent)
+(Water Serpent)
+(Water Serpent)}
+
+
+		{VARIABLE_OP caveund_l1_stan value (Skeleton, Skeleton, Skeleton Archer, Skeleton Archer, Ghost, Ghost, Ghoul, Ghoul, Walking Corpse, Walking Corpse, Dark Adept, Dark Adept)}
+		{VARIABLE_OP caveund_l2_stan value (Deathblade, Revenant, Bone Shooter, Bone Shooter, Wraith, Shadow, Necrophage, Necrophage, Soulless, Souless, Dark Sorcerer, Dark Sorcerer)}
+		{VARIABLE_OP caveund_l2_comm value (Chocobone)}
+		{VARIABLE_OP caveund_l3_stan value (Draug, Draug, Banebow, Banebow, Spectre, Nightgaunt, Ghast, Ghast, Lich, Necromancer)}
+		{VARIABLE_OP caveund_l3_comm value (Death Knight)}
+		{VARIABLE_OP caveund_l4_comm value (Ancient Lich)}
+		{VARIABLE_OP caveund_l1_add value ($caveund_l1_stan, $caveund_l2_comm)}
+		{VARIABLE_OP caveund_l2_add value ($caveund_l2_stan, $caveund_l3_comm)}
+		{VARIABLE_OP caveund_l3_add value ($caveund_l3_stan, $caveund_l4_comm)}
+
+		{SETUNITLIST caveund ($caveund_l1_stan) 
+($caveund_l1_add) 
+($caveund_l2_stan,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add) 
+($caveund_l2_stan,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add) 
+($caveund_l2_stan,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add) 
+($caveund_l2_stan,$caveund_l1_add,$caveund_l1_add,$caveund_l1_add) 
+($caveund_l2_stan,$caveund_l1_add) 
+($caveund_l2_add,$caveund_l1_add) 
+($caveund_l3_stan,$caveund_l2_add,$caveund_l2_add,$caveund_l2_add,$caveund_l2_add,$caveund_l2_add) 
+($caveund_l3_stan,$caveund_l2_add,$caveund_l2_add,$caveund_l2_add,$caveund_l2_add) 
+($caveund_l3_stan,$caveund_l2_add,$caveund_l2_add,$caveund_l2_add) 
+($caveund_l3_stan,$caveund_l2_add,$caveund_l2_add) 
+($caveund_l3_stan,$caveund_l2_add) 
+($caveund_l3_add,$caveund_l2_add) 
+($caveund_l3_add) 
+($caveund_l3_add,$caveund_l3_add,Bone Dragon)}
+
+		{SETUNITLIST cavewater (Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep) 
+(Tentacle ofthe Deep)}
+
+		{VARIABLE_OP cavetroll_l1_stan value (Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp, Troll Whelp)}
+		{VARIABLE_OP cavetroll_l2_stan value (Troll, Troll, Troll, Troll, Troll, Troll, Troll, Troll, Troll Rocklobber, Troll Rocklobber, Troll Rocklobber, Troll Rocklobber)}
+		{VARIABLE_OP cavetroll_l2_comm value (Troll Shaman, Troll Shaman)}
+		{VARIABLE_OP cavetroll_l3_stan value (Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Warrior, Troll Rocklobber, Troll Rocklobber)}
+		{VARIABLE_OP cavetroll_l3_comm value (Troll Hero, Troll Shaman)}
+		{VARIABLE_OP cavetroll_l4_comm value (Great Troll, Troll Shaman)}
+		{VARIABLE_OP cavetroll_l1_add value ($cavetroll_l1_stan, $cavetroll_l2_comm)}
+		{VARIABLE_OP cavetroll_l2_add value ($cavetroll_l2_stan, $cavetroll_l3_comm)}
+		{VARIABLE_OP cavetroll_l3_add value ($cavetroll_l3_stan, $cavetroll_l4_comm)}
+
+		{SETUNITLIST cavetroll ($cavetroll_l1_stan) 
+($cavetroll_l1_add) 
+($cavetroll_l2_stan,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add) 
+($cavetroll_l2_stan,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add) 
+($cavetroll_l2_stan,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add) 
+($cavetroll_l2_stan,$cavetroll_l1_add,$cavetroll_l1_add,$cavetroll_l1_add) 
+($cavetroll_l2_stan,$cavetroll_l1_add) 
+($cavetroll_l2_add,$cavetroll_l1_add) 
+($cavetroll_l3_stan,$cavetroll_l2_add,$cavetroll_l2_add,$cavetroll_l2_add,$cavetroll_l2_add,$cavetroll_l2_add) 
+($cavetroll_l3_stan,$cavetroll_l2_add,$cavetroll_l2_add,$cavetroll_l2_add,$cavetroll_l2_add) 
+($cavetroll_l3_stan,$cavetroll_l2_add,$cavetroll_l2_add,$cavetroll_l2_add) 
+($cavetroll_l3_stan,$cavetroll_l2_add,$cavetroll_l2_add) 
+($cavetroll_l3_stan,$cavetroll_l2_add) 
+($cavetroll_l3_add,$cavetroll_l2_add) 
+($cavetroll_l3_add) 
+($cavetroll_l3_add, Great Troll, Troll Shaman)}
+
+
+		{VARIABLE_OP iceorc_l1_stan value (Orcish Grunt, Orcish Grunt, Orcish Archer, Orcish Archer, Orcish Assassin, Orcish Assassin)}
+		{VARIABLE_OP iceorc_l1_comm value (Orcish Leader)}
+		{VARIABLE_OP iceorc_l2_stan value (Orcish Warrior, Orcish Warrior, Orcish Crossbowman, Orcish Crossbowman, Orcish Slayer, Orcish Slayer)}
+		{VARIABLE_OP iceorc_l2_comm value (Orcish Ruler)}
+		{VARIABLE_OP iceorc_l3_stan value (Orcish Warlord, Orcish Warlord, Orcish Slurbow, Orcish Slurbow, Orcish Nightblade, Orcish Slayer)}
+		{VARIABLE_OP iceorc_l3_comm value (Orcish Sovereign)}
+		{VARIABLE_OP iceorc_l1_add value ($iceorc_l1_stan, $iceorc_l2_comm)}
+		{VARIABLE_OP iceorc_l2_add value ($iceorc_l2_stan, $iceorc_l3_comm)}
+		{VARIABLE_OP iceorc_l3_add value ($iceorc_l3_stan, Orcish Warlord)}
+
+		{SETUNITLIST iceorc ($iceorc_l1_stan, $iceorc_l1_comm) 
+($iceorc_l1_add) 
+($iceorc_l2_stan,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add) 
+($iceorc_l2_stan,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add) 
+($iceorc_l2_stan,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add) 
+($iceorc_l2_stan,$iceorc_l1_add,$iceorc_l1_add,$iceorc_l1_add) 
+($iceorc_l2_stan,$iceorc_l1_add) 
+($iceorc_l2_add,$iceorc_l1_add) 
+($iceorc_l3_stan,$iceorc_l2_add,$iceorc_l2_add,$iceorc_l2_add,$iceorc_l2_add,$iceorc_l2_add) 
+($iceorc_l3_stan,$iceorc_l2_add,$iceorc_l2_add,$iceorc_l2_add,$iceorc_l2_add) 
+($iceorc_l3_stan,$iceorc_l2_add,$iceorc_l2_add,$iceorc_l2_add) 
+($iceorc_l3_stan,$iceorc_l2_add,$iceorc_l2_add) 
+($iceorc_l3_stan,$iceorc_l2_add) 
+($iceorc_l3_add,$iceorc_l2_add) 
+($iceorc_l3_add) 
+($iceorc_l3_add, $iceorc_l3_add, Orcish Sovereign)}
+
+		{VARIABLE_OP forest_l1_merf value (Merman Fighter, Merman Fighter, Merman Hunter, Merman Hunter, Mermaid Initiate, Mermaid Initiate)}
+		{VARIABLE_OP forest_l2_merf value (Merman Warrior, Merman Warrior, Merman Spearman, Merman Netcaster, Mermaid Enchantress, Mermaid Priestess)}
+		{VARIABLE_OP forest_l3_merf value (Merman Triton, Merman Hoplite, Merman Javelineer, Merman Entangler, Mermaid Siren, Mermaid Diviner)}
+
+		{SETUNITLIST icemerfs ($forest_l1_merf) 
+($forest_l2_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l2_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l2_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l2_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l2_merf, $forest_l2_merf, $forest_l2_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l2_merf, $forest_l2_merf, $forest_l2_merf, $forest_l2_merf, $forest_l1_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l2_merf, $forest_l2_merf, $forest_l1_merf, $forest_l1_merf) 
+($forest_l3_merf, $forest_l2_merf, $forest_l2_merf, $forest_l2_merf) 
+($forest_l3_merf, $forest_l2_merf, $forest_l2_merf, $forest_l2_merf) 
+($forest_l3_merf, $forest_l2_merf, $forest_l2_merf) 
+($forest_l3_merf, $forest_l2_merf, $forest_l2_merf) 
+($forest_l3_merf, $forest_l2_merf) 
+($forest_l3_merf, $forest_l2_merf) 
+($forest_l3_merf) 
+($forest_l3_merf) }
+
+
+		{VARIABLE_OP icegob_l1 value (Orcish Leader, Goblin Spearman, Goblin Spearman, Goblin Spearman, Goblin Spearman)}
+		{VARIABLE_OP icegob_l2 value (Orcish Ruler, Goblin Impaler, Goblin Spearman, Goblin Spearman, Goblin Spearman)}
+		{VARIABLE_OP icegob_l3 value (Orcish Sovereign, Goblin Impaler, Goblin Rouser, Goblin Spearman, Goblin Spearman)}
+
+		{SETUNITLIST icegoblins ($icegob_l1) 
+($icegob_l2, $icegob_l1, $icegob_l1, $icegob_l1, $icegob_l1, $icegob_l1) 
+($icegob_l2, $icegob_l1, $icegob_l1, $icegob_l1, $icegob_l1) 
+($icegob_l2, $icegob_l1, $icegob_l1, $icegob_l1) 
+($icegob_l2, $icegob_l1, $icegob_l1) 
+($icegob_l2, $icegob_l2, $icegob_l2, $icegob_l1, $icegob_l1, $icegob_l1, $icegob_l1) 
+($icegob_l2, $icegob_l2, $icegob_l2, $icegob_l2, $icegob_l1, $icegob_l1, $icegob_l1) 
+($icegob_l2, $icegob_l2, $icegob_l1, $icegob_l1) 
+($icegob_l3, $icegob_l2, $icegob_l2, $icegob_l2) 
+($icegob_l3, $icegob_l2, $icegob_l2, $icegob_l2) 
+($icegob_l3, $icegob_l2, $icegob_l2) 
+($icegob_l3, $icegob_l2, $icegob_l2) 
+($icegob_l3, $icegob_l2) 
+($icegob_l3, $icegob_l2) 
+($icegob_l3) 
+($icegob_l3)}
+		
+		{SETUNITLIST icerepts ($swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l2_naga, $swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l2_naga, $swamp_l2_naga, $swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l2_naga, $swamp_l2_naga, $swamp_l1_naga, $swamp_l1_naga) 
+($swamp_l3_naga, $swamp_l2_naga, $swamp_l2_naga, $swamp_l2_naga) 
+($swamp_l3_naga, $swamp_l2_naga, $swamp_l2_naga, $swamp_l2_naga) 
+($swamp_l3_naga, $swamp_l2_naga, $swamp_l2_naga) 
+($swamp_l3_naga, $swamp_l2_naga, $swamp_l2_naga) 
+($swamp_l3_naga, $swamp_l2_naga) 
+($swamp_l3_naga, $swamp_l2_naga) 
+($swamp_l3_naga) 
+($swamp_l3_naga)}
+
+		{VARIABLE_OP void_l1 value (Gryphon Rider, Drake Glider, Vampire Bat, Ghost, Falcon)}
+		{VARIABLE_OP void_l2 value (Gryphon Master, Sky Drake, Blood Bat, Wraith, Falcon)}
+		{VARIABLE_OP void_l3 value (Gryphon Master, Hurricane Drake, Dread Bat, Spectre, Elder Falcon)}
+
+		{SETUNITLIST void ($void_l1) 
+($void_l2, $void_l1, $void_l1, $void_l1, $void_l1, $void_l1) 
+($void_l2, $void_l1, $void_l1, $void_l1, $void_l1) 
+($void_l2, $void_l1, $void_l1, $void_l1) 
+($void_l2, $void_l1, $void_l1) 
+($void_l2, $void_l2, $void_l2, $void_l1, $void_l1, $void_l1, $void_l1) 
+($void_l2, $void_l2, $void_l2, $void_l2, $void_l1, $void_l1, $void_l1) 
+($void_l2, $void_l2, $void_l1, $void_l1) 
+($void_l3, $void_l2, $void_l2, $void_l2) 
+($void_l3, $void_l2, $void_l2, $void_l2) 
+($void_l3, $void_l2, $void_l2) 
+($void_l3, $void_l2, $void_l2) 
+($void_l3, $void_l2) 
+($void_l3, $void_l2) 
+($void_l3) 
+($void_l3)}
+
+
+		{VARIABLE_OP end_l1 value (Heavy Infantryman, Dwarvish Ulfserker, Young Ogre, Wolf, Giant Rat)}
+		{VARIABLE_OP end_l2 value (Shock Trooper, Dwarvish Berserker, Ogre, Great Wolf, Giant Mudcrawler)}
+		{VARIABLE_OP end_l3 value (Iron Mauler, Dwarvish Berserker, Dire Wolf, Giant Spider)}
+
+		{SETUNITLIST end ($end_l1) 
+($end_l2, $end_l1, $end_l1, $end_l1, $end_l1, $end_l1) 
+($end_l2, $end_l1, $end_l1, $end_l1, $end_l1) 
+($end_l2, $end_l1, $end_l1, $end_l1) 
+($end_l2, $end_l1, $end_l1) 
+($end_l2, $end_l2, $end_l2, $end_l1, $end_l1, $end_l1, $end_l1) 
+($end_l2, $end_l2, $end_l2, $end_l2, $end_l1, $end_l1, $end_l1) 
+($end_l2, $end_l2, $end_l1, $end_l1) 
+($end_l3, $end_l2, $end_l2, $end_l2) 
+($end_l3, $end_l2, $end_l2, $end_l2) 
+($end_l3, $end_l2, $end_l2) 
+($end_l3, $end_l2, $end_l2) 
+($end_l3, $end_l2) 
+($end_l3, $end_l2) 
+($end_l3) 
+($end_l3, Yeti)}
+#enddef
